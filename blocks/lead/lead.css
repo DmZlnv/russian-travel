@@ -1,0 +1,13 @@
+.lead {
+    text-align: center;
+    margin: 56px 0 114px;
+}
+
+
+@media screen and (max-width:768px) {
+    .lead {
+        max-width: 720px;
+        margin: 48px auto 110px;
+    }
+    
+}

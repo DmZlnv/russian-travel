@@ -1,0 +1,30 @@
+.cover__link {
+    background-image: url(../../../images/transsib.jpg);
+    min-height: 740px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+}
+
+.cover__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    min-height: 100%;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2A2C2F;;
+    opacity: 0.3;    
+}
+
+.cover__link:hover::before {
+    opacity: 0.8;
+}

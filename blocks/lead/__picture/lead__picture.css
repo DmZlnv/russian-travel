@@ -1,0 +1,15 @@
+@media screen and (max-width:768px) {
+    .lead__picture {
+        max-width: 720px;
+        
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .lead__picture {
+        max-width: 320px;
+        
+    }
+    
+}
