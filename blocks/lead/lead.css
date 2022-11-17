@@ -1,6 +1,7 @@
 .lead {
     text-align: center;
     margin: 56px 0 114px;
+    object-fit: cover;
 }
 
 
